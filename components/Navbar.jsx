@@ -11,7 +11,9 @@ const Navbar = () => (
     whileInView="show"
     className={`${styles.xPaddings} py-8 relative`}
   >
+    {/* Gradient Navbar Background */}
     <div className="absolute w-[50%] inset-0 gradient-01" />
+    {/* Container for Navbar */}
     <div className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}>
       <img
         src="/search.svg"
