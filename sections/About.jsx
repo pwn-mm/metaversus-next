@@ -42,7 +42,7 @@ const About = () => (
         alt="arrow-down-image"
         className="w-[18px] h-[28px] object-contain mt-[28px]"
         id="explore"
-      />
+      />s
     </motion.div>
   </section>
 );
