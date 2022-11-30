@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import styles from '../styles';
 import { fadeIn, staggerContainer } from '../utils/motion';
-import { TypingText } from '../components/CustomTexts'
+import { TypingText } from '../components';
 
 const About = () => (
   <section className={`${styles.paddings} relative z-10`}>
@@ -41,7 +41,6 @@ const About = () => (
         src="/arrow-down.svg"
         alt="arrow-down-image"
         className="w-[18px] h-[28px] object-contain mt-[28px]"
-        id="explore"
       />s
     </motion.div>
   </section>
