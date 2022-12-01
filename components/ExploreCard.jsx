@@ -4,6 +4,8 @@ import { motion } from "framer-motion";
 import styles from '../styles';
 import { fadeIn } from '../utils/motion';
 
+//? Project revision
+
 //! If you put static value in fadeIn, imgs will appear at the same time. That's why we use 'index * 0.5', each img will appear after .5 second.
 
 const ExploreCard = ({ index, active, handleClick, id, imgUrl, title }) => (
