@@ -6,6 +6,8 @@ import { staggerContainer, fadeIn, planetVariants } from '../utils/motion';
 import { TypingText, StartSteps, TitleText } from '../components';
 import { startingFeatures } from "../constants";
 
+// Project revision
+
 const GetStarted = () => (
   <section className={`${styles.paddings} relative z-10`}>
     <motion.div
