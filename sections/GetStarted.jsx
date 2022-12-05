@@ -28,7 +28,7 @@ const GetStarted = () => (
       </motion.div>
       {/* Text */}
       <motion.div
-        variants={fadeIn('left', 'tween', 0.25, 10)}
+        variants={fadeIn('left', 'tween', 0.2, 1)}
         className="flex-[0.75] flex flex-col justify-center"
       >
         <TypingText title=" | How Metaverse Works " />
