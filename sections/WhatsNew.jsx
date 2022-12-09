@@ -25,11 +25,16 @@ const WhatsNew = () => (
         <TypingText title=" | How Metaverse Works " />
         <TitleText title={<>What's new about Metaversus?</>} />
         {/* Starting features */}
+        <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
+          {newFeatures.map((feature) => (
+            <NewFeatures key={feature.title} {...feature} />
+          ))}
+        </div>
 
       </motion.div>
       {/* Planet */}
       <motion.div
-        variants={planetVariants('right')} 
+        variants={planetVariants('right')}
         className={`flex-1 ${styles.flexCenter}`}
       >
         <img
