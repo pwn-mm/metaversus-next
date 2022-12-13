@@ -6,8 +6,6 @@ import { staggerContainer, fadeIn, planetVariants } from '../utils/motion';
 import { NewFeatures, TypingText, TitleText } from '../components';
 import { newFeatures } from "../constants";
 
-// Project Reviewed
-
 const WhatsNew = () => (
   <section className={`${styles.paddings} relative z-10`}>
     <motion.div
