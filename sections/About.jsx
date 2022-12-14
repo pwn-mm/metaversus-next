@@ -41,7 +41,7 @@ const About = () => (
         src="/arrow-down.svg"
         alt="arrow-down-image"
         className="w-[18px] h-[28px] object-contain mt-[28px]"
-      />s
+      />
     </motion.div>
   </section>
 );
