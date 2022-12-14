@@ -1,0 +1,6 @@
+1.  create _app.js in the pages folder.
+2.  export default MyApp;
+3.  create index.js in the pages folder.
+4.  copy the entire codes from page.js.
+5.  go to the next.config.js and make appDir false.
+6.  add additional cmd (next export) to build script in the package.json 

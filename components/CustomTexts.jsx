@@ -25,4 +25,4 @@ export const TitleText = ({ title, textStyles }) => (
   >
     {title}
   </motion.h2>
-)
+);
